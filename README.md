@@ -1,6 +1,6 @@
 # About Me:
 Founder & Lead Developer of Creating Real LLC
-
+[![](https://visitcount.itsvg.in/api?id=joshualim30&icon=5&color=6)](https://visitcount.itsvg.in)
 
 ## Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/joshualim_30) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/joshualim30) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/joshualim_30) 
@@ -14,9 +14,3 @@ Founder & Lead Developer of Creating Real LLC
 
 ## GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=joshualim30&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
-
-### Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
-
----
-[![](https://visitcount.itsvg.in/api?id=joshualim30&icon=5&color=6)](https://visitcount.itsvg.in)
