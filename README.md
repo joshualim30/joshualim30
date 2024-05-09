@@ -1,5 +1,5 @@
 # About Me:
-Self-taught coding languages for the last 5+ years which led to successfully launching a social media platform to the Apple App Store in 2016 by myself. Skilled in frontend iOS development and proficient in various backend development. Currently redeveloping the social media platform with my business partners from my company Creating Real LLC.
+Self-taught coding languages for the last 7+ years which led to successfully launching a social media platform to the Apple App Store in 2016 by myself. Skilled in frontend iOS development and proficient in various backend development. Currently redeveloping the social media platform with my business partners from my company Creating Real LLC.
 
 [![](https://visitcount.itsvg.in/api?id=joshualim30&icon=5&color=6)](https://visitcount.itsvg.in)
 
