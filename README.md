@@ -1,5 +1,5 @@
 # About Me:
-Hi! I am a 21 year old software engineer, entreprenuer, and student studying Business Analytics with a minor in Computer Science at the University of Central Florida. Studying and developing my tech stack for over a decade has allowed me to become proficient in multiple languages, stacks, and environments. I am currently looking for a Software Engineer Internship for Summer 2025, alongside developing personal projects and redeveloping my social interaction platform set to launch late 2024/early 2025 under my company, Creating Real.
+Hi! I am a 21 year old software engineer, entreprenuer, and student studying Business Analytics and Computer Science at the University of Central Florida. Studying and developing my tech stack for over a decade has allowed me to become proficient in multiple languages, stacks, and environments. I am currently looking for a Software Engineer Internship for Summer 2026, alongside developing personal projects and redeveloping my social interaction platform set to launch under my company, Creating Real.
 
 [![](https://visitcount.itsvg.in/api?id=joshualim30&icon=5&color=6)](https://visitcount.itsvg.in)
 
