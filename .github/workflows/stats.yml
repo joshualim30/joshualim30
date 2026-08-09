@@ -1,0 +1,61 @@
+# Rewrites the stats block in README.md, daily.
+#
+# Runs at 05:00 UTC, which is the middle of the night in San Francisco — the numbers are stale
+# by at most a day and never change while anyone is looking at the profile.
+#
+# `workflow_dispatch` is here because a scheduled workflow you cannot trigger by hand is a
+# workflow you cannot debug: you change the script, and then wait until tomorrow to find out.
+#
+# NOTE ON THE TOKEN. The default `GITHUB_TOKEN` can read public data and cannot see private
+# contribution counts, so the totals would undercount. `STATS_TOKEN` is a fine-grained personal
+# access token with read-only metadata access; if it is absent the workflow falls back to the
+# default token and the numbers are simply the public ones. It never needs write access to
+# anything — the commit below is made with the default token's own permission.
+
+name: Update profile stats
+
+on:
+    schedule:
+        - cron: '0 5 * * *'
+    workflow_dispatch:
+    push:
+        paths:
+            - 'scripts/stats.mjs'
+            - '.github/workflows/stats.yml'
+
+permissions:
+    contents: write
+
+concurrency:
+    group: profile-stats
+    cancel-in-progress: true
+
+jobs:
+    stats:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: '22'
+
+            - name: Generate
+              env:
+                  # Falls back to the default token, which still works — it just cannot see
+                  # private contributions, so the totals are the public ones.
+                  GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+                  GITHUB_USER: ${{ github.repository_owner }}
+              run: node scripts/stats.mjs
+
+            - name: Commit if anything moved
+              run: |
+                  if git diff --quiet README.md; then
+                    echo "no change"
+                    exit 0
+                  fi
+                  git config user.name  "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git add README.md
+                  git commit -m "Update profile stats"
+                  git push
