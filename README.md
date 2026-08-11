@@ -24,14 +24,14 @@
 
 ```text
 TypeScript   ██████████████████░░░░  80.6%
-Dart         ██░░░░░░░░░░░░░░░░░░░░   8.6%
+Dart         ██░░░░░░░░░░░░░░░░░░░░   8.5%
 C            █░░░░░░░░░░░░░░░░░░░░░   2.8%
 JavaScript   █░░░░░░░░░░░░░░░░░░░░░   2.4%
 Python       ░░░░░░░░░░░░░░░░░░░░░░   2.1%
 CSS          ░░░░░░░░░░░░░░░░░░░░░░   1.9%
 ```
 
-**706** contributions this year · **5** public repositories · **2** stars
+**711** contributions this year · **5** public repositories · **2** stars
 
 <sub>98% of this year's work is in private repositories, counted here but never named.</sub>
 
