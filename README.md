@@ -20,18 +20,18 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,dart,c,js,py,css&theme=dark" alt="TypeScript, Dart, C, JavaScript, Python, CSS" />
+<img src="https://skillicons.dev/icons?i=ts,dart,py,js,c,css&theme=dark" alt="TypeScript, Dart, Python, JavaScript, C, CSS" />
 
 ```text
-TypeScript   ██████████████████░░░░  80.6%
-Dart         ██░░░░░░░░░░░░░░░░░░░░   8.5%
-C            █░░░░░░░░░░░░░░░░░░░░░   2.8%
-JavaScript   █░░░░░░░░░░░░░░░░░░░░░   2.4%
-Python       ░░░░░░░░░░░░░░░░░░░░░░   2.1%
-CSS          ░░░░░░░░░░░░░░░░░░░░░░   1.9%
+TypeScript   █████████████████░░░░░  76.0%
+Dart         ██░░░░░░░░░░░░░░░░░░░░   9.0%
+Python       █░░░░░░░░░░░░░░░░░░░░░   3.6%
+JavaScript   █░░░░░░░░░░░░░░░░░░░░░   3.5%
+C            █░░░░░░░░░░░░░░░░░░░░░   2.9%
+CSS          ░░░░░░░░░░░░░░░░░░░░░░   2.2%
 ```
 
-**825** contributions this year · **5** public repositories · **2** stars
+**832** contributions this year · **5** public repositories · **2** stars
 
 <sub>98% of this year's work is in private repositories, counted here but never named.</sub>
 
